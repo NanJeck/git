@@ -1,6 +1,39 @@
 <!--1 Créez un nouveau dépôt Git en utilisant la commande init.-->
+git init
 <!--2 Ajoutez un fichier au dépôt en utilsant la commande git add-->
+git add + nom du fichier
 <!--3 Vérifiez l'état dy dépôt en utilisant la commande git status-->
+git status
 <!--4 Effectuez un commit en utilisant la commande git commit -m ""-->
+git commit -m + nom de la commit correspondant à la modification effectuée.
 <!--5 Ajoutez un deuxième fichier et effectuez un commit-->
-<!--6 Vérifiez l'historique des commits en utilisant la commande git log.-->
+git add + nom du nouveau fichier
+<!--6 Vérifiez l'historique des commits en utilisant la commande git log-->
+git log
+<!--7 Créez une nouvelle branche en utilisant la commande git branch-->
+git branch + nom de la branche secondaire
+<!--8 Basculez sur la nouvelle branch en utilisant la commande git checkout-->
+git checkout + nom de la branche secondaire
+<!--9 Modifier un fichier et effectuer un commit sur la nouvelle branche-->
+git add + le nom du fichier modifié
+<!--10 Basculer sur la branche principale en utilisant la commande git checkout master-->
+git checkout + nom de la branche principale
+<!--11 Fusionner la branche de travail dans la branche principale en utilisant la commande git merge-->
+git merge suivi du nom de la branche à fusionner :
+git merge cours-git/premier-branche
+<!--12 Modifier un fichier sur la branche principale et effectuer un commit-->
+git add = nom de la branche principal
+<!--13 Supprimer un fichier en utilisant la commande git rm-->
+git rm + nom du fichier que l'on veut supprimer
+<!--14 Renommer un fichier en utilisant la commande git mv-->
+git mv + nom du fichier  + nouveau nom du fichier
+<!--15 Cloner un dépôt distant en utilisant la commande git clone-->
+Pour cloner un dépôt distant, on utilise la commande git clone. On éxécuter la commande git clone + l'url du dépôt distant
+Exemple : git clone https://github.com/saloum-sylla/premier-clone.git
+<!--16 Mettre à jour le dépôt local avec les modifications du dépôt distant en utilisant la commande git pull-->
+git pull
+<!--17 utiliser la commande git remote add origin pour ajouter un référenciel distant-->
+git remote origin + nom de l'url du dépôt distant, situé dans le répertoire de votre compte sur le site GitHub
+<!--19 envoyer les modifications locales au dépôt distant en utilisant la commande git push-->
+git push suivie du nom de la branche à pousser
+git push origin master--
